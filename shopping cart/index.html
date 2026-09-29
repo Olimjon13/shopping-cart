@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1> Shopping Cart</h1>
+
+        <div class="products-section">
+            <h2>Mahsulotlar</h2>
+
+            <button id="sortBtn">Arzondan qimmatga ↑</button>
+
+            <div id="products" class="products"></div>
+        </div>
+
+        <div class="cart-section">
+            <h2>Savatcha</h2>
+
+            <div id="cart"></div>
+
+            <div class="cart-footer">
+                <h3>
+                    Umumiy summa:
+                    <span id="totalPrice">$0</span>
+                </h3>
+
+                <button id="clearBtn" class="clear-btn">
+                    Savatchani tozalash
+                </button>
+            </div>
+        </div>
+
+        <div id="message"></div>
+    </div>
+
+    <script src="scripts/cart.js"></script>
+</body>
+</html>

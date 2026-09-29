@@ -1,0 +1,1 @@
+JS ning so'ngi loyihasi. 
